@@ -1,6 +1,4 @@
-package org.nrum.util;
-
-import org.nrum.nrum.Constant;
+package np.com.mahendrarajdhami.mdateconversion;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -189,10 +187,10 @@ public class MDateConversion {
             }
             totalEngDaysCount--;
         }
-        if (currentLangID.equals(Constant.CURRENT_LANG_ID_2)) {
+        if (currentLangID.equals(2)) {
             String resultDate = nepYear +"-"+nMonthMap.get(nepMonth)+"-"+nepDay;
             return resultDate;
-        } else if(currentLangID.equals(Constant.CURRENT_LANG_ID_3)) {
+        } else if(currentLangID.equals(3)) {
             String resultDate = nepYear +"-"+rMonthMap.get(nepMonth)+"-"+nepDay;
             return resultDate;
         } else {
